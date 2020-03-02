@@ -1,0 +1,17 @@
+h1 {
+    color: yellow;
+    text-align: center;
+    background-color: #38ff00;
+}
+.flowers_blocks{
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+.first {
+    width: 30%;
+}
+img {
+    width: 100%;
+}
