@@ -1,0 +1,92 @@
+*{ 
+    margin:0;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+h2 {
+        text-transform: uppercase;
+        text-align: center;
+        position: relative;
+    }
+h2::after{
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8c2d;
+    position: absolute;
+    left: calc(50% - 32px);
+    bottom:-15px;
+    
+}
+p  {
+    text-align: center;
+    padding-top: 30px;
+}
+h4{
+    text-align: center;
+}
+img {
+    display:block;
+    margin:auto;
+    padding-bottom: 30px;
+}
+.section {
+    padding: 105px 140px;
+}
+.img_section1 {
+    padding: 0 auto;
+    background-image: url(../img/фон\ сразу\ темный.png );
+    background-repeat:no-repeat;
+    background-position: 100% 100%;
+        background-size: cover;
+         
+}
+
+.flex {
+    display:flex;
+    justify-content:space-between;
+    padding-top: 80px;
+    }
+.part {
+    width: 30% ;
+
+}
+.section2 {
+    padding: 75px 333px;
+}
+h3 {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    
+}
+h3::after{
+    content: "";
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: calc(50% - 32px);
+    bottom:-15px;
+    
+}
+.white {
+    color: white;
+    }
+h6{
+    
+   text-align: center;
+    }
+.img_section3 {
+    padding: 37px 542px 12px 542px;
+    background-color: black;
+    background-size: cover;
+    }    
+.section3 {
+
+}
+    
