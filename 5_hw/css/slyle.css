@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url(../fons/raleway-family-v3.0/Raleway-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Releway-Thin-Italic';
+    src: url(../fons/raleway-family-v3.0/Raleway-Thin-Italic.ttf)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    font-family: 'Raleway-Regular';
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #212121;
+}
+.section_header h2 {
+        position: relative;
+        margin-bottom: 50px;
+}
+.container  {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.container2  {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.container3  {
+    max-width: 986px;
+    margin: 0 auto;
+}
+.section_header {
+   text-align: center;
+   padding-bottom: 79px;
+}
+.section_header h2::after {
+    content:'';
+    display: block;
+    width: 64px;
+    height: 2px;
+    background-color: #ff8c2d;
+    position: absolute;
+    left: calc(50% - 32px);
+    bottom: -24px;
+   
+ }
+.section_header p {
+    font-family: "OpenSans-Regula", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+ }
+.blocks {
+     display: flex;
+     justify-content: space-between;
+      }
+.oneblock {
+    text-align: center;
+    width: 30%;
+    color: #86878b;
+    font-family: "OpenSans-Regular", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #86878b;
+}
+.title {
+    font-family: "OpenSans-Bold", sans-serif;
+    font-size: 20px;
+    color: #333333;
+    margin-bottom: 30px;
+     }
+.oneblock img {
+    margin-bottom: 27px;
+ }
+.container2 .section_header h2 {
+    color: #ffffff;
+}
+.container2 .section_header p {
+    color: #ffffff;
+}
+.container2 .section_header h2::after {
+        background-color: #ffffff;
+   }
+.container2 {
+    background-image: url(../img/фон\ сразу\ темный.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.container {
+    padding: 38px 142px 104px 142px;
+}
+.container2 {
+    padding: 74px 332px 62px 332px;
+    }
+.container3 {
+        padding: 36px 539px 14px 539px;
+        background-color: black;
+        }
+.blocks2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 13px;
+        
+         }
+.section_theend p {
+            font-family: "OpenSans-Regula", sans-serif;
+            font-size: 12px;
+            color: #ffffff;
+            text-align: center;
+         }
