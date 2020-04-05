@@ -1,0 +1,110 @@
+//out:fales
+@import "./color.less";
+@import "./media.less";
+/*team_section*/
+
+.team_section {
+    padding: 100px 350px 100px 350px ;
+    h2 {
+    color: @darkcolor;
+    font-family:"Raleway-Bold",sans-serif;
+    font-size:1.5rem ;
+    margin-top: 28px;
+     }
+    h3 {
+    color: @bright;
+    font-family:"Raleway-Bold",sans-serif;
+    text-transform: uppercase;
+    font-size:1rem ;
+    margin-top: 14px;
+    }
+    p {
+    font-family:"Raleway-Bold",sans-serif;
+    color: @blockcolor;
+    font-size:1.07rem ;
+    margin-top: 26px;
+    line-height: 1.6rem; 
+    }
+    img {
+      width: 100%;
+    }
+}
+
+@media @extralarge-breakpoint {
+    .team_section {
+        padding: 100px 150px 90px 150px ;}
+}
+@media @extra-breakpoint {
+    .team_section {
+        h2 {
+        font-size:1.4rem ;
+        }
+        h3 {
+        font-size:0.9rem ;
+        }
+        p {
+        font-size:0.8rem ;
+        line-height: 1.3rem; 
+        }
+        .social_media a {
+        height: 30px;
+        width: 30px;       
+        font-size: 1.4rem;
+        line-height: 2.3rem;
+        }
+        .social_media a {
+        margin-bottom: 20px;
+        }
+    }
+
+}
+@media @large-breakpoint {
+    .team_section {
+        padding: 80px 150px 70px 150px ;} 
+    .team_section {
+        h2 {
+        font-size:1.05rem ;
+        }
+        h3 {
+        font-size:0.8rem ;
+        }
+        p {
+        margin-top: 20px;
+        font-size:0.8rem ;
+        line-height: 1.3rem; 
+        }
+        
+    }
+}
+@media @medium-breakpoint{
+    .team_section {
+        padding: 80px 150px 70px 150px ;} 
+    .team_section {
+        h2 {
+        font-size:1.05rem ;
+        }
+        h3 {
+        font-size:0.8rem ;
+        }
+        p {
+        margin-top: 20px;
+        font-size:0.75rem ;
+        line-height: 1.3rem; 
+        }
+        .social_media a {
+            margin-bottom: 20px;
+        }
+        .social_media a {
+        height: 30px;
+        width: 30px;       
+        font-size: 1.3rem;
+        line-height: 2.3rem;
+        }
+    } 
+}
+@media @medium-small-breakpoint{   
+  }
+@media @small-breakpoint{
+    .team_section {
+        padding: 100px 110px 110px 150px ;}
+}

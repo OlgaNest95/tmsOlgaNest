@@ -1,0 +1,125 @@
+//out:fales
+@import "./color.less";
+@import "./media.less";
+
+/*download_section*/
+.download_section {
+    padding: 100px 350px 100px 350px ;
+    text-align: center;
+    h2 {
+    color: @darkcolor;
+    font-family:"Raleway-ExtraLight";
+    font-size:2.16rem ;
+
+    }
+    p {
+    font-family:"Raleway-Bold";
+    color: @darkcolor;
+    font-size:1rem ;
+    padding-top: 15px; 
+    font-weight: 800;
+    text-transform: uppercase;
+    }
+    .button {
+    width: 280px;
+    height: 48px;
+    padding: 14px 45px;
+    margin-top: 27px;  }       
+}
+@media @extralarge-breakpoint {
+   .download_section {
+    padding: 100px 150px 100px 150px ;    
+ }
+}
+@media @extra-breakpoint {
+    .download_section {
+        padding: 80px 150px 80px 150px ; 
+        h2 {
+        font-size:1.9rem ;
+        }
+        p {
+        font-size:0.9rem ;        
+        }
+        .button {
+        width: 245px;
+        height: 43.2px;
+          }         
+        a{
+        font-size: 0.9rem;
+        }
+        }  
+}
+@media @large-breakpoint {
+    .download_section {
+        padding: 60px 150px 60px 150px ; 
+        h2 {
+        font-size:1.7rem ;
+        }
+        p {
+        font-size:0.8rem ;        
+        }
+        .button {
+        width: 220px;
+        height: 34px;
+        padding: 9px 45px;
+      }         
+        a{
+        font-size: 0.8rem;
+        }
+        }    
+}   
+@media @medium-breakpoint{
+    .download_section {
+        padding: 55px 150px 55px 150px ; 
+        h2 {
+        font-size:1.5rem ;
+        }
+        p {
+        font-size:0.7rem ;        
+        }
+        .button {
+        width: 198px;
+        height: 31px;
+         }         
+        a{
+        font-size: 0.7rem;
+        }
+        }    
+ } 
+
+@media @medium-small-breakpoint{  
+    .download_section {
+        padding: 55px 110px 55px 110px ;  
+        h2 {
+        font-size:1.3rem ;
+        }
+        p {
+        font-size:0.6rem ;        
+        }
+        .button {
+        width: 178px;
+        height: 28px;
+          }         
+        a{
+        font-size: 0.6rem;
+        }
+        } 
+ }
+@media @small-breakpoint{
+    .download_section {
+     padding: 55px 110px 55px 110px ;  
+    h2 {
+    font-size:1.2rem ;
+    }
+    p {
+    font-size:0.5rem ;        
+    }
+    .button {
+    width: 160px;
+    height: 25px;
+     }         
+    a{
+    font-size: 0.5rem;
+    }  
+     }
+}

@@ -1,0 +1,54 @@
+//out:fales
+@import "./color.less";
+@import "./media.less";
+/*works_section*/
+.works_section {
+ 
+    .img_part img {
+       position: relative;
+       border-bottom: 1px solid @maincolor;
+       border-left: 0.5px solid @maincolor;
+       border-right: 0.5px solid @maincolor;
+       transition: all 0.5s;
+       width: 100%;
+          }
+       .hover_part {
+       position: absolute;
+       height: 100%; 
+       width: 100%; 
+       top: 0px;
+       background-color: @hover;
+       opacity: 0.9;
+       padding-top: 100px;
+       border-bottom: 2px solid @maincolor;
+       border-left: 0.5px solid @maincolor;
+       border-right: 0.5px solid @maincolor;
+       border-top: 1px solid @maincolor;
+       z-index: -1;
+   }
+    
+       img:hover{
+       z-index: -1;
+   }
+       .col-xl-3 {
+       padding: 0px 0px;
+       }
+         
+       h2 {
+       font-family:"Raleway-Bold",sans-serif;
+       color:@maincolor;
+       text-transform: uppercase;
+       font-size: 1.07rem;
+       text-align: center;
+       margin-bottom: 0px;
+        
+   }
+   p {
+       font-family:"Raleway-Bold",sans-serif;
+       color: @maincolor;
+       font-size: 1.07rem;
+       text-align: center;
+      
+   }
+  
+   }
